@@ -6,7 +6,7 @@ body, div {
 }
 /* Center the content inside the grid-container using flex properties */
 .grid-container {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
