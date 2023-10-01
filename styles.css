@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+/* Reset some default styles for body and div */
+body, div {
+  margin: 0;
+  padding: 0;
+}
+/* Center the content inside the grid-container using flex properties */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Adjust this value to control the gap between grid items */
+}
+
+/* Style each grid-item */
+.grid-item {
+  background-color: lightgray;
+  height: 150px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
